@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewTask"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardBackgroundColor="@color/important"
+    android:layout_margin="6dp"
+    >
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/cousine"
+        android:textColor="@color/important_text"
+        android:textSize="15sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/important_text"
+        />
+    <TextView
+        android:id="@+id/task_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/cousine"
+        android:textColor="@color/important_text"
+        android:textSize="12sp"
+        />
+
+</androidx.cardview.widget.CardView>
