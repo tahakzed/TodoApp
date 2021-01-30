@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.TodoApp" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.TodoApp" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <!-- This code is for changing the color of the bar. -->
         <!-- Type your colour code which you want to set in colorPrimary item -->

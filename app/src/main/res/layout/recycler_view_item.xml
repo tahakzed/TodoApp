@@ -5,22 +5,25 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:cardCornerRadius="6dp"
-    app:cardBackgroundColor="@color/important"
     android:layout_margin="6dp"
     >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <TextView
         android:id="@+id/task_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:fontFamily="@font/cousine"
-        android:textColor="@color/important_text"
-        android:textSize="15sp"
+        android:textSize="17sp"
+        android:textStyle="bold"
         />
     <View
+        android:id="@+id/underline"
         android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="@color/important_text"
+        android:layout_height="1dp"
         />
     <TextView
         android:id="@+id/task_tv"
@@ -28,8 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:fontFamily="@font/cousine"
-        android:textColor="@color/important_text"
         android:textSize="12sp"
         />
-
+    </LinearLayout>
 </androidx.cardview.widget.CardView>

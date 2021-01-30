@@ -11,4 +11,8 @@
     <color name="dark_orange">#C8900D</color>
     <color name="important">#F68E84</color>
     <color name="important_text">#A5615B</color>
+    <color name="sw_important">#F6BF84</color>
+    <color name="sw_important_text">#9F7D59</color>
+    <color name="filler">#84AAF6</color>
+    <color name="filler_text">#526A9A</color>
 </resources>
